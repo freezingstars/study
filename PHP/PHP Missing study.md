@@ -317,4 +317,69 @@ mixed,number
 
 系统错误 用户错误 其他错误
 
-错误触发：运行时触发，人为触发('trigger')
+错误触发：运行时触发，人为触发('trigger_error('自定义报错',E_USER_ERROR)'),如果不加入报错类型，则代码仍会继续运行
+
+自定义错误处理：PHP系统提供了一种用户处理错误的机制，用户自定义错误处理函数，然后添加入系统错误处理的句柄中，系统则会使用用户定义的函数处理错误
+
+``` php
+<?php
+function my_error($errno, $errstr, $errfile, $errline) {
+    if (!(error_reporting() & $errno)) {
+        return false;
+    }
+    switch ($errno) :
+        case E_ERROR:
+        case E_USER_ERROR:
+                echo 'Fatal error in file ' . $errfile . ' on line ' . $errline . '<br>';
+                echo 'Error info: ' . $errstr;
+            break;
+        case E_WARNING:
+        case E_USER_WARNING:
+                echo 'Warning in file ' . $errfile . ' on line ' . $errline . '<br>';
+                echo 'Error info: ' . $errstr;
+            break;
+        case E_NOTICE:
+        case E_USER_NOTICE:
+                echo 'Notice in file ' . $errfile . ' on line ' . $errline . '<br>';
+                echo 'Error info: ' . $errstr;
+            break;
+    endswitch;
+    return true;
+}
+
+set_error_handler('my_error'); #注册自定义函数，修改错误处理机制
+
+echo $a;
+?>
+
+```
+
+
+
+### 字符串处理
+
+EOF(heredoc)，是定义一个字符串的方法，使用后必须接分号，类似于python中的三引号输出
+
+``` php
+echo <<<EOF
+	<h1>first title</h1>
+	<p>first paragraph</p>
+EOF;
+?>
+```
+
+标识可以自定义，但是结束标识必须单独一行
+
+如果想要输出符号但是又不希望符号成为语法的一部分，需要进行转义，反斜杠+字母即可
+
+统计字符串长度:'strlen()'，如果希望输出中文具体的个数而非字节数，可以使用mbstring扩展'mb_strlen()'
+
+#### 字符串相关函数
+
+1. 转换函数：implode(),explode(),str_split()
+2. 截取函数：trim(),ltrim(),rtrim(),substr(),strstr()
+3. 大小转换函数：strtolower(),strtoupper(),ucfirst()
+4. 查找函数：strpos(),strrpos()
+5. 替换函数：str_replace()
+6. 格式化函数：
+7. 其他：
