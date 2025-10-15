@@ -377,9 +377,99 @@ EOF;
 #### 字符串相关函数
 
 1. 转换函数：implode(),explode(),str_split()
+   - implode(连接方式，数组) 将数据组的元素按某种规则连接成一个字符串
+   - explode(分隔字符，目标字符串，数量) 将字符串按照某个格式进行分隔，变成数组
+     - 大于 0 - 返回包含最多 *limit* 个元素的数组
+     - 小于 0 - 返回包含除了最后的 -*limit* 个元素以外的所有元素的数组
+     - 0 - 返回包含一个元素的数组
+   - str_split(字符串，字符长度) 按照指定长度拆分字符串，得到数组
 2. 截取函数：trim(),ltrim(),rtrim(),substr(),strstr()
+   - trim(字符串,指定字符) 默认是去除两边空格'trim()'，也可,以指定，按内容循环去除两边的内容，指导不是目标字符为止，有ltrim和rtrim
+   - substr(字符串，起始下标，长度) 从指定位置开始截取长度，也可以不指定长度
+   - strstr(字符串，匹配的字符)  定位匹配的字符，以此为下标截取到最后，可以用在去文件后缀名
 3. 大小转换函数：strtolower(),strtoupper(),ucfirst()
+   - ucfirst() 首字母大写
 4. 查找函数：strpos(),strrpos()
+   - strpos(字符串，字符)  首次出现位置
+   - strrpos(字符串，字符)  最后出现的位置
 5. 替换函数：str_replace()
-6. 格式化函数：
-7. 其他：
+   - str_replace(想匹配的内容，被替换的内容，字符串)
+6. 格式化函数：printf(),sprintf()
+   - printf/sprintf(输出字符串有占位符，顺序占位内容)  格式化输出字符串 %d十进制 %s
+7. 其他：str_repeat(),str_shuffle()
+   - str_repeat() 重复字符串
+   - str_shuffle()  打乱字符串
+
+### 数组
+
+``` php
+$arr1 = ('1',2,'3');
+$arr2 = ['1',2,'3'];
+$arr3[] = 1;
+$arr3[10] = 2;
+$arr3['key'] = 'key'
+```
+
+
+
+php的数组下标可以为整数或字符串，都是数字为索引数组，都是字符串为关联数组，混合则为混合数组
+
+元素顺序以放入的顺序为准，与下标无关，数组下标从0自动增长，如果手动提前设置一个较大的下标，则从最大的下标开始，特殊下标会自动转换（布尔值）
+
+``` php
+$info = array(
+	array('stuname' => 'Jack' , 'age' => 21),
+    array('stuname' => 'Jerry' , 'age' => 22),
+    array('stuname' => 'Tom' , 'age' => 23)
+);
+    print_r($info); #打印结构
+```
+
+遍历数组也可以使用each和list，each遍历输出的结果会是此种结果
+
+``` PHP
+array{
+    [1] => 1 # 第一个值
+    [value] => 1 # 第一个值
+    [0] => 0 # 第一个下标
+    [key] => 0 # 第一个下标
+}
+array{
+    [1] => 2 # 第二个值
+    [value] => 2 # 第二个值
+    [0] => 1 # 第二个下标
+    [key] => 1 # 第二个下标
+} #如果each取不到值，则会返回一个false
+```
+
+list只能按照下标顺序进行取值，如果出现'arr(1,2 => 1)'这种数组，则'list($second) = $arr'则会报NULL
+
+1. 排序函数：
+
+   - sort() 顺序排序
+   - rsort() 倒序
+   - asort() 排序，索引不变
+   - arsort() 倒序，索引不变
+   - ksort() 键名顺序
+   - krsort() 键名倒序
+   - shuffle() 随机排序
+
+2. 指针函数：
+   - reset() 重置指针（首）
+   - end() 重置指针（尾）
+   - next() 指针向后移动,取值
+   - prev() 指针向前移动，取值
+   - current() 获取指针当前元素值
+   - key() 获取指针当前下标
+3. 其它函数：
+   - count() 统计元素数量
+   - array_push() 加入一个元素
+   - array_pop() 从数组后面取出一个元素
+   - array_shift() 从数组前面取出一个元素
+   - array_unshift() 从数组前面加入一个元素
+   - array_reverse() 数组反转
+   - in_array() 判断存在
+   - array_keys() 获取所有下标，返回一个索引数组
+   - array_values() 获取所有值，返回一个索引数组
+
+next和prev可能会使指针范围超出下标长度，只能使用reset和end归位
