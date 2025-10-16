@@ -59,19 +59,24 @@
         <caption>记仇</caption>
         <tr>
             <th>事件</th>
-            <th>扣分</th>
             <th>批注</th>
+
         </tr>
         <tr>
             <td>帮忙配置</td>
-            <td>0</td>
-            <td>不下台帮忙就搁那叭叭讲，讲的又慢屁话又多</td>
+            <td>不下台帮其他人配置就搁那叭叭讲，帮忙配置还得被瞪一眼警告，一周过去还有一群人没配置好你不嫌丢人我都嫌丢人</td>
         </tr>
         <tr>
             <td>抽人</td>
-            <td>-5</td>
             <td>东西又没教什么讲了你也听不清，不想讲就直接说我也懒得听</td>
         </tr>
+        <tr>
+            <td>硬讲硬解释</td>
+            <td>对着教程讲讲混name和value，硬解释十分钟使自己信服</td>
+        </tr>
     </table>
+    <label for="city">江西</label>
+    <input type="radio" name="city" id="city">
+    <label>上海<input type="radio" name="city"></label>
 </body>
 </html>

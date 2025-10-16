@@ -1,0 +1,16 @@
+import turtle
+turtle.screensize(600, 600,'white')
+turtle.setup(width=600, height=600)
+turtle.shape('turtle')
+turtle.colormode(255.0)
+turtle.pencolor(79,79,79)
+turtle.fillcolor(0,245,255)
+turtle.pensize(2)
+turtle.goto(0,0)
+turtle.pendown()
+turtle.begin_fill()
+for i in range(4):
+    turtle.forward(100)
+    turtle.left(90)
+turtle.end_fill()
+turtle.done()
