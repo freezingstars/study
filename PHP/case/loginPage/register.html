@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>用户登录</title>
+    <title>用户注册</title>
     <style>
         body {
             margin: 0;
@@ -62,14 +62,13 @@
 <body>
 <div id="bound">
     <h2>用户注册</h2>
-    <form action="login.php" method="post">
+    <form action="register.php" method="post">
         <label for="username">用户名：</label>
         <input type="text" id="username" name="username" placeholder="请输入用户名" required />
-
         <label for="password">密码：</label>
         <input type="password" id="password" name="password" placeholder="请输入密码" required />
-        <label for="password">确认密码：</label>
-        <input type="password" id="repeatPassword" name="password" placeholder="请再次输入密码" required />
+        <label for="repeatPassword">确认密码：</label>
+        <input type="password" id="repeatPassword" name="repeatPassword" placeholder="请再次输入密码" required />
         <div class="btns">
             <input type="button" value="返回登录" onclick="window.location.href='login.html'" />
             <input type="submit" value="注册" />

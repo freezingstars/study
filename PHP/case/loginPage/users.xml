@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+  <user>
+    <username>admin</username>
+    <password>admin</password>
+  </user>
+  <user>
+    <username>googeon</username>
+    <password>123456</password>
+  </user>
+  <user>
+    <username>ubuntu</username>
+    <password>123456</password>
+  </user>
+  <user>
+    <username>ad</username>
+    <password>ad</password>
+  </user>
+  <user>
+    <username>adc</username>
+    <password>adc</password>
+  </user>
+  <user>
+    <username>adcd</username>
+    <password>adcd</password>
+  </user>
+</info>

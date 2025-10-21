@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!--DOM属性-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="box1">ID</div>
+<div class="box2">类</div>
+<div>普通</div>
+<button>点击弹窗</button>
+<script>
+    var element_id = document.getElementById('box1');
+    console.log(element_id);
+    var element_class = document.getElementsByClassName('box2');
+    console.log(element_class);
+    var element_tag = document.getElementsByTagName('div');
+    console.log(element_tag);
+    element_id.innerHTML = '被修改的内容';  <!--id不可复用，所以无需下标-->
+    element_class[0].innerText = '修改后的类选择文本';
+    element_tag[0].style.color = 'red';
+    element_tag[0].style.fontSize = '10px';
+
+    var button_element = document.getElementsByTagName('button')[0]
+    console.log(button_element)
+
+    // button_element.onclick = function () {  <!--点击触发-->
+    //     alert("触发")
+    // }
+    /* tagName和className实际上返回的都是一个数组 */
+
+    /*button_element.addEventListener('click',function() { <!--监听点击事件，触发-->
+        alert("触发");
+    })*/
+
+    button_element.addEventListener('click',click_event); <!--监听点击事件，执行功能函数-->
+
+    function click_event() {
+        alert("触发")
+    }
+</script>
+</body>
+</html>
