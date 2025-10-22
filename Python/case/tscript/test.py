@@ -1,4 +1,5 @@
 from os.path import split
+from traceback import clear_frames
 
 # name="Python程序设计"
 #
@@ -30,10 +31,13 @@ from os.path import split
 #     print("")
 #     for j in range(1,i+1):
 #         print(f"{i} * {j} = {i * j}",end=" ")
-a,b = 1,0
-while True :
-    b += a
-    if a > 10000:
-        break
-    a += 1
-print(b)
+# a,b = 1,0
+# while True :
+#     b += a
+#     if a > 10000:
+#         break
+#     a += 1
+# print(b)
+x = 0
+if  :print(x)
+
