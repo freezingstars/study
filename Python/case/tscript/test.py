@@ -39,5 +39,8 @@ from traceback import clear_frames
 #     a += 1
 # print(b)
 x = 0
-if  :print(x)
+list_t = ['1','2','3','4']
+for i in list_t:
+    print(i)
+
 
