@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "计网/CNW.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "CNW"
             }
           }
         ]
@@ -58,7 +58,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "计网/CNW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -68,7 +68,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
+              "title": "CNW 的反向链接列表"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "计网/CNW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "CNW 的出链列表"
             }
           },
           {
@@ -106,13 +106,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "计网/CNW.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "CNW 的大纲"
             }
           }
         ],
@@ -130,12 +130,16 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "bases:创建新数据库": false,
+      "iconic:打开规则书": false
     }
   },
   "active": "d4251fb8e19f1c0a",
   "lastOpenFiles": [
     "计网/CNW.md",
+    "未命名.base",
+    "未命名.md",
+    "README.md",
     "JavaScript/JS.md"
   ]
 }
