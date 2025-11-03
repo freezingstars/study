@@ -1,0 +1,77 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": true,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": true,
+    "rulePage": "folder"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "Python": {
+      "icon": "📁",
+      "unsynced": [
+        "69788831f29d2d89"
+      ]
+    },
+    "计网/CNW.md": {
+      "icon": "🇲🇩"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "Wn4Sp",
+      "name": "MD File",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "is",
+          "value": "MD"
+        }
+      ],
+      "enabled": true,
+      "icon": "🇲🇩"
+    }
+  ],
+  "folderRules": [
+    {
+      "id": "NnBkM",
+      "name": "ALL",
+      "match": "none",
+      "conditions": [
+        {
+          "source": "icon",
+          "operator": "nameIs"
+        }
+      ],
+      "enabled": true,
+      "icon": "📁"
+    }
+  ]
+}
