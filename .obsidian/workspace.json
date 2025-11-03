@@ -29,56 +29,10 @@
   "left": {
     "id": "124911d6e06b51af",
     "type": "split",
-    "children": [
-      {
-        "id": "8d39a19fef7e846f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "866b67f7be490a06",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
-          {
-            "id": "80b8cc0d0e05fe2f",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "搜索"
-            }
-          },
-          {
-            "id": "2a25179aaaf3aa06",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
-            }
-          }
-        ]
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8aeda8cee70881ea",
@@ -88,39 +42,6 @@
         "id": "2c6e394a229583d7",
         "type": "tabs",
         "children": [
-          {
-            "id": "d34e944fda62b467",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "计网/CNW.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "CNW 的反向链接列表"
-            }
-          },
-          {
-            "id": "805a28c958fd136f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "计网/CNW.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "CNW 的出链列表"
-            }
-          },
           {
             "id": "e38434dbfb91769b",
             "type": "leaf",
@@ -151,12 +72,12 @@
               "title": "CNW 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,6 +92,11 @@
   },
   "active": "d9fb2d5ef7832d24",
   "lastOpenFiles": [
+    "计网/image/常用编码图.png",
+    "计网/image/Snipaste_2025-11-03_11-27-03.png",
+    "计网/image",
+    "计网/Photo",
+    "计网/新建文件夹",
     "Python/case/tscript/test.py~"
   ]
 }
