@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            table-layout: fixed;
+            width: 300px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid;
+            width: 200px;
+            height: 20px;
+            text-align: center;
+        }
+        button {
+            margin: 0 4px;
+        }
+        input {
+            text-align: center;
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <table>
+        <tr>
+            <th>姓名</th>
+            <th>成绩</th>
+            <th>操作</th>
+        </tr>
+        <tr>
+            <td>编辑</td>
+            <td>删除</td>
+            <td>
+                <button onclick="updateRow(this)">编辑此行</button>
+                <button onclick="delRow(this)">删除此行</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <button onclick="addRow()">点此加一行</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script>
+    // 添加新行
+    function addRow() {
+        let table = document.getElementsByTagName("table")[0];
+        let row = table.insertRow(table.rows.length - 1);
+
+        let cell1 = row.insertCell(0);
+        let cell2 = row.insertCell(1);
+        let cell3 = row.insertCell(2);
+
+        cell1.innerHTML = "待编辑";
+        cell2.innerHTML = "0";
+        cell3.innerHTML = "<button onclick='updateRow(this)'>编辑此行</button><button onclick='delRow(this)'>删除此行</button>";
+    }
+
+    // 删除当前行
+    function delRow(btn) {
+        let row = btn.parentNode.parentNode;
+        row.parentNode.removeChild(row);
+    }
+
+   function updateRow(btn) {
+        let row = btn.parentNode.parentNode;
+        let originName = row.cells[0].innerText;
+        let originScore = row.cells[1].innerText;
+
+        row.cells[0].innerHTML = `<input type='text' value='${originName}'>`;
+        row.cells[1].innerHTML = `<input type='text' value='${originScore}'>`;
+        row.cells[2].innerHTML = "<button onclick='saveRow(this)'>保存</button><button onclick='delRow(this)'>删除此行</button>";
+    }
+
+    function saveRow(btn) {
+        let dataRow = btn.parentNode.parentNode;
+        let nameInput = dataRow.cells[0].querySelector("input");
+        let scoreInput = dataRow.cells[1].querySelector("input");
+
+        // 还原为文本
+        dataRow.cells[0].innerText = nameInput.value || "未命名";
+        dataRow.cells[1].innerText = scoreInput.value || "0";
+        dataRow.cells[2].innerHTML = "<button onclick='updateRow(this)'>编辑此行</button><button onclick='delRow(this)'>删除此行</button>";
+    }
+</script>
+</body>
+</html>

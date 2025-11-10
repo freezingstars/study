@@ -29,7 +29,54 @@
   "left": {
     "id": "124911d6e06b51af",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "f9d6c53a6f189bde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70b564a51b697a29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ea7ca14cc2159803",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "80936c02bcc0fb15",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
@@ -39,11 +86,44 @@
     "type": "split",
     "children": [
       {
-        "id": "2c6e394a229583d7",
+        "id": "4fb6306eba8053f2",
         "type": "tabs",
         "children": [
           {
-            "id": "e38434dbfb91769b",
+            "id": "b0e79edba3e843f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "计网/CNW.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "CNW 的反向链接列表"
+            }
+          },
+          {
+            "id": "58d082ab1ab81eb7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "计网/CNW.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "CNW 的出链列表"
+            }
+          },
+          {
+            "id": "e88e120c5242a813",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -58,7 +138,7 @@
             }
           },
           {
-            "id": "445529ee6e25980c",
+            "id": "fd295ed5f78d1ba2",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -72,12 +152,12 @@
               "title": "CNW 的大纲"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -87,16 +167,24 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "bases:创建新数据库": false,
+      "iconic:打开规则书": false
     }
   },
   "active": "d9fb2d5ef7832d24",
   "lastOpenFiles": [
+    "Python/case/tscript/4/hexConvert.py~",
+    "Python/case/tscript/4/CaesarCipher.py",
+    "Python/case/tscript/4/exceptSpace.py~",
+    "Python/case/tscript/4/exceptSpace.py",
+    "Python/case/tscript/4/splitStr.py",
+    "Python/case/tscript/4/numVerify.py",
+    "Python/case/tscript/4/hexConvert.py",
+    "Python/case/tscript/4/numverify.py~",
+    "Python/case/tscript/4/numverify.py",
+    "Python/case/tscript/4/splitstr.py~",
+    "Python/case/tscript/4/splitstr.py",
     "计网/image/常用编码图.png",
-    "计网/image/Snipaste_2025-11-03_11-27-03.png",
-    "计网/image",
-    "计网/Photo",
-    "计网/新建文件夹",
-    "Python/case/tscript/test.py~"
+    "计网/image/Snipaste_2025-11-03_11-27-03.png"
   ]
 }

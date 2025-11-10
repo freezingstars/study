@@ -1,3 +1,4 @@
+from msvcrt import locking
 from os.path import split
 from traceback import clear_frames
 
@@ -42,6 +43,7 @@ x = 0
 list_t = ['1','2','3','4']
 for i in list_t:
     print(i)
+
 
 
 
