@@ -31,11 +31,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7525813e84943d63",
+        "id": "f9d6c53a6f189bde",
         "type": "tabs",
         "children": [
           {
-            "id": "8e63d0aff519d040",
+            "id": "70b564a51b697a29",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "7d78ba18db12462e",
+            "id": "ea7ca14cc2159803",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "c17d20ac32960aca",
+            "id": "80936c02bcc0fb15",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -84,21 +84,91 @@
   "right": {
     "id": "8aeda8cee70881ea",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "4fb6306eba8053f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0e79edba3e843f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "计网/CNW.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "CNW 的反向链接列表"
+            }
+          },
+          {
+            "id": "58d082ab1ab81eb7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "计网/CNW.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "CNW 的出链列表"
+            }
+          },
+          {
+            "id": "e88e120c5242a813",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "fd295ed5f78d1ba2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "计网/CNW.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "CNW 的大纲"
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "iconic:打开规则书": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "bases:创建新数据库": false,
+      "iconic:打开规则书": false
     }
   },
   "active": "d9fb2d5ef7832d24",
@@ -107,17 +177,17 @@
     "计网/image/海明码.png",
     "计网/image/循环冗余码2.png",
     "计网/image/循环冗余码.png",
-    "Python/case/tscript/4/teachersDeadMom.py",
+    "Python/case/tscript/4/hexConvert.py~",
+    "Python/case/tscript/4/CaesarCipher.py",
+    "Python/case/tscript/4/exceptSpace.py~",
+    "Python/case/tscript/4/exceptSpace.py",
     "Python/case/tscript/4/splitStr.py",
     "Python/case/tscript/4/numVerify.py",
     "Python/case/tscript/4/hexConvert.py",
-    "Python/case/tscript/4/exceptSpace.py",
-    "Python/case/tscript/4/CaesarCipher.py",
-    "Python/case/tscript/4",
-    "PHP/case/table/table.html",
-    "PHP/case/table",
+    "Python/case/tscript/4/numverify.py~",
+    "Python/case/tscript/4/numverify.py",
+    "Python/case/tscript/4/splitstr.py~",
     "计网/image/常用编码图.png",
-    "计网/image/Snipaste_2025-11-03_11-27-03.png",
-    "计网/image"
+    "计网/image/Snipaste_2025-11-03_11-27-03.png"
   ]
 }
