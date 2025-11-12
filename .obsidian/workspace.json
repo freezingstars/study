@@ -84,77 +84,7 @@
   "right": {
     "id": "8aeda8cee70881ea",
     "type": "split",
-    "children": [
-      {
-        "id": "4fb6306eba8053f2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b0e79edba3e843f7",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "计网/CNW.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "CNW 的反向链接列表"
-            }
-          },
-          {
-            "id": "58d082ab1ab81eb7",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "计网/CNW.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "CNW 的出链列表"
-            }
-          },
-          {
-            "id": "e88e120c5242a813",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "fd295ed5f78d1ba2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "计网/CNW.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "CNW 的大纲"
-            }
-          }
-        ]
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
@@ -173,9 +103,9 @@
   },
   "active": "d9fb2d5ef7832d24",
   "lastOpenFiles": [
-    "计网/image/滑动窗口.png",
     "计网/image/利用率公式.png",
     "Python/case/tscript/test1.py",
+    "计网/image/滑动窗口.png",
     "计网/image/海明码2.png",
     "计网/image/海明码.png",
     "计网/image/循环冗余码2.png",
