@@ -49,7 +49,6 @@
 </div>
 
 <script>
-    // 添加新行
     function addRow() {
         let table = document.getElementsByTagName("table")[0];
         let row = table.insertRow(table.rows.length - 1);
@@ -84,7 +83,6 @@
         let nameInput = dataRow.cells[0].querySelector("input");
         let scoreInput = dataRow.cells[1].querySelector("input");
 
-        // 还原为文本
         dataRow.cells[0].innerText = nameInput.value || "未命名";
         dataRow.cells[1].innerText = scoreInput.value || "0";
         dataRow.cells[2].innerHTML = "<button onclick='updateRow(this)'>编辑此行</button><button onclick='delRow(this)'>删除此行</button>";

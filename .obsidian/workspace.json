@@ -35,19 +35,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "70b564a51b697a29",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
-          {
             "id": "ea7ca14cc2159803",
             "type": "leaf",
             "state": {
@@ -86,11 +73,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4fb6306eba8053f2",
+        "id": "018849ef1857817c",
         "type": "tabs",
         "children": [
           {
-            "id": "b0e79edba3e843f7",
+            "id": "db849228627a2359",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -109,7 +96,7 @@
             }
           },
           {
-            "id": "58d082ab1ab81eb7",
+            "id": "b6deda449e18f06e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -123,7 +110,7 @@
             }
           },
           {
-            "id": "e88e120c5242a813",
+            "id": "26111ffb8d56683d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,7 +125,7 @@
             }
           },
           {
-            "id": "fd295ed5f78d1ba2",
+            "id": "71099722d3845a0d",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -173,12 +160,16 @@
   },
   "active": "d9fb2d5ef7832d24",
   "lastOpenFiles": [
+    "计网/image/802.11数据帧格式.png",
+    "计网/image/802.1Q.png",
+    "Python/Python.md",
+    "计网/CNW.md",
+    "PHP/case/table/table.html~",
     "计网/image/v2标准帧2.png",
     "计网/image/v2标准帧.png",
-    "Python/case/tscript/4/Globe.py",
-    "计网/image/滑动窗口.png",
     "计网/image/利用率公式.png",
     "Python/case/tscript/test1.py",
+    "计网/image/滑动窗口.png",
     "计网/image/海明码2.png",
     "计网/image/海明码.png",
     "计网/image/循环冗余码2.png",
@@ -191,7 +182,6 @@
     "Python/case/tscript/4/numVerify.py",
     "Python/case/tscript/4/hexConvert.py",
     "Python/case/tscript/4/numverify.py~",
-    "计网/image/常用编码图.png",
-    "计网/image/Snipaste_2025-11-03_11-27-03.png"
+    "计网/image/常用编码图.png"
   ]
 }
