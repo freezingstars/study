@@ -62,11 +62,7 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "0ef96089ef7a656e",
-=======
             "id": "64c20362b01efa4f",
->>>>>>> 1ab871dd6a8253e6671ba5f8345dc2aafeca47a0
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -199,7 +195,6 @@
     "Python/case/tscript/4/splitStr.py",
     "Python/case/tscript/4/numVerify.py",
     "Python/case/tscript/4/hexConvert.py",
-    "Python/case/tscript/4/numverify.py~",
-    "计网/image/常用编码图.png"
+    "Python/case/tscript/4/numverify.py~"
   ]
 }
