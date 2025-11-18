@@ -60,6 +60,19 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "64c20362b01efa4f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
           }
         ]
       }
@@ -160,6 +173,7 @@
   },
   "active": "d9fb2d5ef7832d24",
   "lastOpenFiles": [
+    "计网/image/IP数据报格式.png",
     "计网/image/802.11数据帧格式.png",
     "计网/image/802.1Q.png",
     "Python/Python.md",
@@ -181,7 +195,6 @@
     "Python/case/tscript/4/splitStr.py",
     "Python/case/tscript/4/numVerify.py",
     "Python/case/tscript/4/hexConvert.py",
-    "Python/case/tscript/4/numverify.py~",
-    "计网/image/常用编码图.png"
+    "Python/case/tscript/4/numverify.py~"
   ]
 }
