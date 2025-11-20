@@ -1,0 +1,9 @@
+/* 阅读模式的加粗文字 */
+b, strong {
+    color: darkred !important; /* 或 #8B0000 */
+}
+
+/* 编辑模式的加粗文字（Live Preview） */
+.markdown-source-view .cm-strong {
+    color: darkred !important;
+}
