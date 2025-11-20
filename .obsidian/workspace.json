@@ -62,7 +62,7 @@
             }
           },
           {
-            "id": "415073bb6c589a63",
+            "id": "64c20362b01efa4f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -74,12 +74,12 @@
               "title": "文件列表"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8aeda8cee70881ea",
@@ -172,6 +172,8 @@
   },
   "active": "d9fb2d5ef7832d24",
   "lastOpenFiles": [
+    "Python/case/tscript/colorful.py",
+    "Python/case/tscript/hk5.py",
     "计网/image/IP数据报格式.png",
     "计网/image/802.11数据帧格式.png",
     "计网/image/802.1Q.png",
@@ -186,14 +188,12 @@
     "计网/image/海明码2.png",
     "计网/image/海明码.png",
     "计网/image/循环冗余码2.png",
-    "计网/image/循环冗余码.png",
     "Python/case/tscript/4/hexConvert.py~",
     "Python/case/tscript/4/CaesarCipher.py",
     "Python/case/tscript/4/exceptSpace.py~",
     "Python/case/tscript/4/exceptSpace.py",
     "Python/case/tscript/4/splitStr.py",
     "Python/case/tscript/4/numVerify.py",
-    "Python/case/tscript/4/hexConvert.py",
-    "Python/case/tscript/4/numverify.py~"
+    "Python/case/tscript/4/hexConvert.py"
   ]
 }
