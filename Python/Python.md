@@ -259,7 +259,7 @@ def noneTest():
 result = noneTest()
 print(f"返回值：{result}，返回类型：{type(result)}")
 ```
-
+如果在函数的实参前加入\*号，则会以元组的形式接收任意个参数。如果是\*\*符号，则视为可选参数，同时以字典形式接收任意个参数
 ### 作用域
 局部变量和全局变量的生命周期与Java和C一样，局部变量离开代码块立刻销毁
 但可以通过使用关键字globe将代码块内部的变量变为全局变量
@@ -521,4 +521,212 @@ for key in stu_dict.keys():
     print(stu_dict[key])
 print(len(stu_dict)) #计算字典内元素数量
 ```
+
+## 异常处理
+try:可能出错的代码
+except：异常后执行的代码
+else：无异常时执行的
+finally：总会执行的
+``` python
+try:  
+    num = int(input("input a number: "))  
+    print(num)  
+    print(1 / num)  
+# except:  
+# except (ValueError, ZeroDivisionError): #仅捕获值异常与除0错误  
+#     print("自定义错误")  
+#     print("!" * 10)  
+  
+except Exception as e: #捕获异常对象，打印其具体的报错信息  
+    print("↓   被捕获的报错")  
+    print(e)  
+  
+else:  
+    print("没报错就会执行这里")  
+  
+finally:  
+    print("总会执行这一段，资源释放")
+```
+raise 变量 ：以异常的形式抛出字段
+``` Python
+# e = Exception("111")  
+# raise e  
+raise Exception("111")
+```
+
+## 模块
+import 模块名，从首行开始写。例如import random
+常用爬虫类模块：
+requests
+BeautifulSoup4
+NumPy
+Matplotlib
+
+创建自定义模块：
+``` Python
+module_name = "tool"
+def 功能1():
+	return 0
+
+def 功能2():
+	return 0
+```
+使用自定义模块功能:
+``` Python
+import my_module:
+form my_module import 功能1,功能2,module_name #导入模块中具体的某些函数/变量
+
+print(module_name)
+my_module.功能1()
+```
+导入模块时，自动执行一次模块内所有的代码，所以如果想要在模块内拥有一些不会再导入后被执行的代码，可以用
+``` Python
+if __name__ == "__main__"
+	print("运行测试")
+```
+这种模式允许模块在被导入时不会执行某些代码，而只有在作为独立脚本运行时才会执行这些代码
+
+## 包
+在python3.3之前，一个python文件夹要被识别为包，必须包含__init__.py文件，但是建议保留，方便识别也防止版本问题。通过这个文件可以控制导入py文件的范围与初始化操作等。
+	包
+		 \_\_init\_\_.py
+		 模块1.py
+		 模块2.py
+导入则是`import 包名.模块名`,也可以加入from进行简洁导入
+批量导入`from 包名 import *`，批量导入需要__init__.py文件中__all__变量的支持
+``` Python
+__all__ = ["模块1","模块2"] #不需要写入.py后缀
+```
+
+也可以仅导入包下模块单独的功能`from 包名.模块名 import 功能`,这个功能可以通过__all__进行拓展
+``` Python
+module_name = "tool"
+def 功能1():
+	return 0
+
+def 功能2():
+	return 0
+	
+def 功能3():
+	return 0
+	
+__all__ = [功能1,功能2]
+```
+这样在批量导入时只会导入all内的功能
+
+## 类与对象
+面向对象三大特性：**封装、继承、多态**
+可以使用`__init__(self):`来进行初始化，`__del__(self)`结尾以在**程序**结束时**进行资源释放**。
+``` Python
+class Student:
+    # 初始化属性
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    # 方法
+    def show(self):
+        print(f"姓名：{self.name}，年龄：{self.age}")
+        
+    def __del__(self):
+	    print(f"对象 {self.name} 已被销毁")
+
+# 创建对象
+stu1 = Student("Jack", 20)
+stu2 = Student("Tom", 18)
+# 调用方法
+stu1.show()
+stu2.show()
+
+```
+
+| 类             | 对象           |
+| ------------- | ------------ |
+| 模板、设计图        | 实例、成品        |
+| 定义属性和行为       | 真正拥有属性并能执行行为 |
+| 类不能直接代表某一具体事物 | 对象是具体的个体     |
+
+| 特性  | 解释        | 关键点           | 示例                |
+| --- | --------- | ------------- | ----------------- |
+| 封装  | 隐藏细节，提供接口 | 私有、保护、公有属性    | `__score`         |
+| 继承  | 复用代码，扩展类  | `class A(B):` | Student 继承 Person |
+| 多态  | 方法名相同表现不同 | 重写方法 + 统一调用接口 | `animal.speak()`  |
+### 封装
+封装指 **将数据（属性）和行为（方法）封装到类中，并对外隐藏内部实现细节**。  
+通过封装，可以控制哪些内容对外可见、哪些是内部私有。
+- 保护数据安全，避免被随意修改
+- 让对象更易使用（内部复杂，外部简单）
+
+Python 访问控制方式：
+
+|类型|写法|含义|
+|---|---|---|
+|公有属性|`self.name`|外部可访问|
+|保护属性|`_age`|建议内部使用，外部可访问但不推荐|
+|私有属性|`__score`|外部无法直接访问（名称改写机制）|
+实例：
+``` Python
+class Student:
+    def __init__(self, name, age):
+        self.name = name       # 公有
+        self._age = age        # 保护
+        self.__score = 100     # 私有
+    
+    def show(self):
+        print(self.name, self._age)
+
+stu = Student("Jack", 20)
+print(stu.name)       # ✔可访问
+print(stu._age)       # ✔可访问（但不推荐）
+# print(stu.__score)  # ❌报错，不能直接访问
+#或者print(stu._Student__score)  # ✔可访问，但一般不用
+```
+
+### 继承
+
+继承用于 **创建新类并复用已有类的属性和方法**。  
+被继承的类称为 **父类（基类）**，继承的类称为 **子类（派生类）**。
+``` Python
+class Person:
+    def __init__(self, name):
+        self.name = name
+    def show(self):
+        print("姓名：", self.name)
+
+class Student(Person):
+    def show(self):
+        print(f"学生姓名：{self.name}")
+    def study(self):
+        print(f"{self.name} 正在学习。")
+
+stu = Student("Tom")
+stu.show()
+stu.study()
+
+```
+
+### 多态
+**同一个方法名，在不同对象中表现出不同的行为**。  
+多态依赖继承和方法重写。
+``` Python
+class Animal:
+    def speak(self):
+        print("动物叫")
+
+class Dog(Animal):
+    def speak(self):
+        print("汪汪！")
+
+class Cat(Animal):
+    def speak(self):
+        print("喵喵！")
+
+def makeSound(animal):
+    animal.speak()
+
+makeSound(Dog())   # 输出：汪汪！
+makeSound(Cat())   # 输出：喵喵！
+```
+多态的意义
+- 提高代码的扩展性和灵活性
+- 新对象只需实现相同接口，无需修改原代码（符合开闭原则）
 

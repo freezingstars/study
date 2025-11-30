@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4b6221e2b8425dfc",
+        "id": "a62bfe6872b69909",
         "type": "tabs",
         "children": [
           {
@@ -35,19 +35,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "93a11b3d3ee36113",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
-          {
             "id": "1b0b3c4df8c3be97",
             "type": "leaf",
             "state": {
@@ -73,28 +60,57 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "508e2add98636349",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8aeda8cee70881ea",
     "type": "split",
     "children": [
       {
-        "id": "018849ef1857817c",
+        "id": "959ecaf58c574bb5",
         "type": "tabs",
         "children": [
           {
-            "id": "db849228627a2359",
+            "id": "45e5fb03a6080072",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Python/Python.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Python 的大纲"
+            }
+          },
+          {
+            "id": "386f90df723c8698",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计网/CNW.md",
+                "file": "Python/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +120,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "CNW 的反向链接列表"
+              "title": "Python 的反向链接列表"
             }
           },
           {
-            "id": "b6deda449e18f06e",
+            "id": "dc2832d095ccc56e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计网/CNW.md",
+                "file": "Python/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "CNW 的出链列表"
+              "title": "Python 的出链列表"
             }
           },
           {
-            "id": "26111ffb8d56683d",
+            "id": "753a358e0ed491f5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,13 +152,11 @@
               "title": "标签"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,6 +172,12 @@
   },
   "active": "f993320da96c309c",
   "lastOpenFiles": [
+    "Python/case/tscript/pratical/test3.py",
+    "Python/case/tscript/pratical/test2.py",
+    "Python/case/tscript/pratical/test1.py",
+    "Python/case/tscript/pratical/test.py",
+    "Python/case/tscript/pratical",
+    "Python/case/tscript/test2.py",
     "Python/case/tscript/test.py~",
     "计网/CNW.md",
     "计网/image/HTTP Message.png",
@@ -176,12 +196,6 @@
     "PHP/case/table/table.html~",
     "计网/image/v2标准帧2.png",
     "计网/image/v2标准帧.png",
-    "Python/case/tscript/test1.py",
-    "Python/case/tscript/4/hexConvert.py~",
-    "Python/case/tscript/4/CaesarCipher.py",
-    "Python/case/tscript/4/exceptSpace.py~",
-    "Python/case/tscript/4/exceptSpace.py",
-    "Python/case/tscript/4/splitStr.py",
-    "Python/case/tscript/4/numVerify.py"
+    "Python/case/tscript/test1.py"
   ]
 }
