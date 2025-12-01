@@ -39,11 +39,10 @@ from traceback import clear_frames
 #         break
 #     a += 1
 # print(b)
-x = 0
-list_t = ['1','2','3','4']
-for i in list_t:
-    print(i)
-
+# x = 0
+# list_t = ['1','2','3','4']
+# for i in list_t:
+#     print(i)
 
 
 
