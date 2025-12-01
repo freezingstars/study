@@ -730,3 +730,64 @@ makeSound(Cat())   # 输出：喵喵！
 - 提高代码的扩展性和灵活性
 - 新对象只需实现相同接口，无需修改原代码（符合开闭原则）
 
+## 静态方法与类方法
+实例方法必须先实例化才能通过对象调用
+对于静态方法，需要添加`@staticmethod`，方法内没有`self`和`cls`参数
+可以直接通过`类名.方法名()`进行调用，无需创建对象。也可以通过对象调用，但是静态方法与实例无关。
+类方法和静态方法类似，通过`@classmethod`进行标识，第一个参数为`cls`。类方法直接绑定在类上，可以直接操作类本身而不需要创建实例。
+
+静态方法和类方法都是专用于访问类属性而不能用于操作实例对象。
+
+## 文件操作
+使用函数`open(文件路径,访问模式,encoding="编码模式")`(二进制文件不用编码)函数进行文件的访问。访问模式为r/w/a,读/写/追加。在这之后跟上+可以同时进行读写，同时对于w+和a+，在文件不存在时会创建文件，w+覆盖，a+行尾追加。二进制文件需要增添一个b选项。
+使用`文件对象.close()`进行关闭操作，释放内存资源。
+
+因为可能会遗忘close，所以可以使用with语句进行更加安全的操作(自动关闭)
+``` Python
+with open(文件路径,访问模式,encoding="编码模式") as f:
+	content = f.read()
+print(f.closed) #验证状态
+```
+
+`readline()`：逐行读取，避免占用过多内存，适合大文件
+`readlines()`：读取所有，将所有行作为列表元素返回，每行都是一个字符串，适合小文件
+`文件对象.write(内容)`：写入文件，对于文本文件，内容必须是字符串；二进制文件则为字节串。
+
+因为\在python表转义，所以使用下列两种方式表示路径
+``` Python
+f = open(r"C:\Program Files\Windows Defender\ThirdPartyNotices.txt","r",encoding="utf-8")
+g = open("C:\\Program Files\\Windows Defender\\ThirdPartyNotices.txt","r",encoding="utf-8")
+```
+
+### 文件指针定位
+读模式：指针在文件开头
+写/追加：指针在文件末尾
+`tell()`返回当前指针位置（字节）
+`seek(offset,whence)`：移动指针，offset偏移量；whence：参考点：0[文件开头],1[当前位置],2[文件末尾]
+
+## 目录操作
+所有目录/文件管理操作前导入os模块（Python内置模块）
+
+`os.rename(源路径, 目标路径)`，给文件或目录改名，也可以移动文件（本质为改路径+改名）。不支持跨盘移动。
+`os.remove(路径)`，删除文件，不能删除目录
+`os.mkdir(路径)`，创建一个空目录
+`os.rmdir(路径)`，删除一个为空的指定目录
+`os.listdir(路径)`，查看目录内容
+`os.getcwd()`，查看当前工作目录
+`os.path.exists()`判断路径是否存在
+`os.path.isfile(路径)`，判断是否为文件
+`os.path.isdir(路径)`，判断是否为目录
+
+## **正则表达式**
+一套描述字符串模式的规则，可以认为是字符串过滤器。
+在python中使用正则需要导入`re`模块
+`re.match(匹配模式, 字符串, flags=0)`，只匹配字符串的开始，如果字符串开始不符合正则表达式，则匹配失败，函数返回None
+``` Python
+Str1 = "Hello World"  
+print(re.match("Hello", Str1).span())
+```
+`re.search(匹配模式, 字符串, flags=0)`匹配整个字符串，直到找到一个匹配。
+``` Python
+Str1 = "Hello World"  
+print(re.search("lo", Str1).span())
+```
