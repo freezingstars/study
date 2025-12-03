@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "819e34fddd8d6811",
+    "id": "0b7569790c60082c",
     "type": "split",
     "children": [
       {
-        "id": "a62bfe6872b69909",
+        "id": "e9845681fa9ae54d",
         "type": "tabs",
         "children": [
           {
-            "id": "f993320da96c309c",
+            "id": "6d1b574dd790bdcc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Python/Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "Python"
             }
           }
         ]
@@ -27,15 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "124911d6e06b51af",
+    "id": "dfa29afb01a5ff30",
     "type": "split",
     "children": [
       {
-        "id": "fec3c35f4f1cdd32",
+        "id": "a02eb467a46591c3",
         "type": "tabs",
         "children": [
           {
-            "id": "1b0b3c4df8c3be97",
+            "id": "e43d7c3cbb14a35c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "5f4750d83f6a8855",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,7 +65,7 @@
             }
           },
           {
-            "id": "309f6a8bda12aef6",
+            "id": "fca7372eb53eaf00",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -60,55 +73,24 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-<<<<<<< HEAD
-            "id": "508e2add98636349",
-=======
-            "id": "a9d9b39a52d142b6",
->>>>>>> c4c609fc246df5474980b41646a2acdf3db812f8
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "8aeda8cee70881ea",
+    "id": "bf080710624f7244",
     "type": "split",
     "children": [
       {
-        "id": "959ecaf58c574bb5",
+        "id": "54c650380ac4e7c3",
         "type": "tabs",
         "children": [
           {
-            "id": "45e5fb03a6080072",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Python/Python.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Python 的大纲"
-            }
-          },
-          {
-            "id": "386f90df723c8698",
+            "id": "09f117baf6103362",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -127,7 +109,7 @@
             }
           },
           {
-            "id": "dc2832d095ccc56e",
+            "id": "f33077dc11a44815",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -141,7 +123,7 @@
             }
           },
           {
-            "id": "753a358e0ed491f5",
+            "id": "e65b27f6352b3b2a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -154,24 +136,21 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
-<<<<<<< HEAD
-=======
           },
           {
-            "id": "71099722d3845a0d",
+            "id": "61a1a934dd141187",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Python/Python.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linux 的大纲"
+              "title": "Python 的大纲"
             }
->>>>>>> c4c609fc246df5474980b41646a2acdf3db812f8
           }
         ]
       }
@@ -182,63 +161,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "iconic:打开规则书": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "bases:创建新数据库": false,
+      "iconic:打开规则书": false
     }
   },
-  "active": "f993320da96c309c",
-  "lastOpenFiles": [
-<<<<<<< HEAD
-    "Python/case/tscript/pratical/p7.py",
-    "Python/case/tscript/pratical/p6.py~",
-    "Python/case/tscript/pratical/p6.py",
-    "Python/case/tscript/pratical/p5.py",
-    "Python/case/tscript/pratical/p4.py~",
-    "Python/case/tscript/pratical/p4.py",
-    "Python/case/tscript/pratical/p3.py",
-    "Python/case/tscript/pratical/p2.py",
-    "Python/case/tscript/pratical/p1.py~",
-    "Python/case/tscript/pratical/p1.py",
-    "ThirdPartyNotices.txt",
-    "计网/CNW.md",
-=======
-    "未命名.md",
-    "Linux/Linux.md",
-    "计网/CNW.md",
-    "Linux",
-    "Python/Python.md",
-    "Python/case/tscript/pratical/p10.py",
-    "Python/case/tscript/pratical/p9.py~",
-    "Python/case/tscript/pratical/test.txt",
-    "Python/case/tscript/pratical/p9.py",
-    "Python/case/tscript/pratical/p8.py",
-    "Python/case/tscript/pratical/p6.py~",
-    "Python/case/tscript/pratical/p7.py~",
-    "Python/case/tscript/pratical/p7.py",
-    "Python/case/tscript/pratical/p6.py",
-    "计网/image/UDP.png",
->>>>>>> c4c609fc246df5474980b41646a2acdf3db812f8
-    "计网/image/HTTP Message.png",
-    "计网/image/HTTP Packet.png",
-    "计网/image/EmailProtocol.png",
-<<<<<<< HEAD
-    "Python/Python.md",
-    "PHP/PHP Missing study.md",
-    "上面写的ack和ACK，不是同一个概念：.md",
-    "计网/image/UDP.png",
-=======
->>>>>>> c4c609fc246df5474980b41646a2acdf3db812f8
-    "计网/image/DHCP1.png",
-    "计网/image/IP数据报格式.png",
-    "计网/image/802.11数据帧格式.png",
-    "计网/image/802.1Q.png",
-    "计网/image/v2标准帧2.png",
-    "计网/image/v2标准帧.png"
-  ]
+  "active": "6d1b574dd790bdcc",
+  "lastOpenFiles": []
 }
