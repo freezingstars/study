@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Linux/Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Linux"
             }
           }
         ]
@@ -62,7 +62,7 @@
             }
           },
           {
-            "id": "64c20362b01efa4f",
+            "id": "a9d9b39a52d142b6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8aeda8cee70881ea",
@@ -144,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Linux/Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Python 的大纲"
+              "title": "Linux 的大纲"
             }
           }
         ],
@@ -158,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,22 +174,24 @@
   },
   "active": "d9fb2d5ef7832d24",
   "lastOpenFiles": [
+    "未命名.md",
+    "Linux/Linux.md",
     "计网/CNW.md",
+    "Linux",
     "Python/Python.md",
-    "Python/case/tscript/pratical/test4.py~",
-    "Python/case/tscript/pratical/test4.py",
-    "ThirdPartyNotices.txt",
+    "Python/case/tscript/pratical/p10.py",
+    "Python/case/tscript/pratical/p9.py~",
+    "Python/case/tscript/pratical/test.txt",
+    "Python/case/tscript/pratical/p9.py",
+    "Python/case/tscript/pratical/p8.py",
+    "Python/case/tscript/pratical/p6.py~",
+    "Python/case/tscript/pratical/p7.py~",
+    "Python/case/tscript/pratical/p7.py",
+    "Python/case/tscript/pratical/p6.py",
     "计网/image/UDP.png",
     "计网/image/HTTP Message.png",
     "计网/image/EmailProtocol.png",
-    "Python/case/tscript/pratical/test3.py",
-    "Python/case/tscript/pratical/test2.py",
-    "Python/case/tscript/pratical/test1.py",
-    "Python/case/tscript/pratical/test.py",
-    "Python/case/tscript/pratical",
     "计网/image/DHCP1.png",
-    "Python/case/tscript/colorful.py",
-    "Python/case/tscript/hk5.py",
     "计网/image/IP数据报格式.png",
     "计网/image/802.11数据帧格式.png",
     "计网/image/802.1Q.png",
