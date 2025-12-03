@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Linux/Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Linux"
             }
           }
         ]
@@ -62,7 +62,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "508e2add98636349",
+=======
+            "id": "a9d9b39a52d142b6",
+>>>>>>> c4c609fc246df5474980b41646a2acdf3db812f8
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -78,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8aeda8cee70881ea",
@@ -151,12 +154,31 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
+<<<<<<< HEAD
+=======
+          },
+          {
+            "id": "71099722d3845a0d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux/Linux.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Linux 的大纲"
+            }
+>>>>>>> c4c609fc246df5474980b41646a2acdf3db812f8
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,6 +194,7 @@
   },
   "active": "f993320da96c309c",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Python/case/tscript/pratical/p7.py",
     "Python/case/tscript/pratical/p6.py~",
     "Python/case/tscript/pratical/p6.py",
@@ -184,13 +207,33 @@
     "Python/case/tscript/pratical/p1.py",
     "ThirdPartyNotices.txt",
     "计网/CNW.md",
+=======
+    "未命名.md",
+    "Linux/Linux.md",
+    "计网/CNW.md",
+    "Linux",
+    "Python/Python.md",
+    "Python/case/tscript/pratical/p10.py",
+    "Python/case/tscript/pratical/p9.py~",
+    "Python/case/tscript/pratical/test.txt",
+    "Python/case/tscript/pratical/p9.py",
+    "Python/case/tscript/pratical/p8.py",
+    "Python/case/tscript/pratical/p6.py~",
+    "Python/case/tscript/pratical/p7.py~",
+    "Python/case/tscript/pratical/p7.py",
+    "Python/case/tscript/pratical/p6.py",
+    "计网/image/UDP.png",
+>>>>>>> c4c609fc246df5474980b41646a2acdf3db812f8
     "计网/image/HTTP Message.png",
     "计网/image/HTTP Packet.png",
     "计网/image/EmailProtocol.png",
+<<<<<<< HEAD
     "Python/Python.md",
     "PHP/PHP Missing study.md",
     "上面写的ack和ACK，不是同一个概念：.md",
     "计网/image/UDP.png",
+=======
+>>>>>>> c4c609fc246df5474980b41646a2acdf3db812f8
     "计网/image/DHCP1.png",
     "计网/image/IP数据报格式.png",
     "计网/image/802.11数据帧格式.png",

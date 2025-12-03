@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # import math
 # for i in range(100,1000):
 #     a = math.floor(i / 100)
@@ -14,3 +15,17 @@ for i in range(100, 1000):
 
     if a ** 3 + b ** 3 + c ** 3 == i:
         print(i)
+=======
+class Student:
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+
+    def showScore(self):
+        print(self.name+"考了",self.score)
+
+P1 = Student("Tom", 80)
+P1.showScore()
+P1.score = 85
+P1.showScore()
+>>>>>>> c4c609fc246df5474980b41646a2acdf3db812f8
