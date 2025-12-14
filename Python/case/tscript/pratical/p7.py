@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+peach = 1
+for i in range(9):
+    peach = 2 * (peach + 1)
+print(peach)
+=======
 class BankAccount:
     def __init__(self, balance=0):
         self.__balance = balance  # 私有属性
@@ -57,3 +63,4 @@ def atm_system():
 
 # 程序入口
 atm_system()
+>>>>>>> c4c609fc246df5474980b41646a2acdf3db812f8
