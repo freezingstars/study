@@ -18,8 +18,8 @@ with open("movie_titles.txt", "w", encoding="utf-8") as f:
             titles = div.find_all("span", class_="title")
             if len(titles) == 2:
                 trans_name = titles[0].get_text(strip=True)
-                origin_name = titles[1].get_text(strip=True)
-                line = f"{trans_name} / {origin_name}"
+                origin_name = titles[1].get_text(strip=True).replace("\xa0", "")
+                line = f"{trans_name}"
             else:
                 line = titles[0].get_text(strip=True)
             f.write(line + "\n")

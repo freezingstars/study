@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Linux/Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Linux"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8aeda8cee70881ea",
@@ -144,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Linux/Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Python 的大纲"
+              "title": "Linux 的大纲"
             }
           }
         ],
@@ -158,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,32 +174,32 @@
   },
   "active": "bff2632f95d78bcd",
   "lastOpenFiles": [
-    "Python/case/tscript/pratical/p5.py",
-    "Python/case/tscript/pratical/p4.py",
-    "Python/case/tscript/pratical/p3.py",
-    "Python/case/tscript/pratical/p2.py",
-    "Python/case/tscript/pratical/p1.py",
-    "PHP/PHP Missing study.md",
-    "Python/Python.md",
-    "Mysql/Mysql.md",
-    "Python/case/tscript/7/song.png",
-    "Python/case/tscript/7/国歌.txt",
-    "Python/case/tscript/7/hk5.py",
-    "Python/case/tscript/7/hk4.py~",
-    "Python/case/tscript/7/hk4.py",
-    "Python/case/tscript/7/poemcloud2.png",
-    "Python/case/tscript/7/hk3.py",
-    "Python/case/tscript/7/poemcloud1.png",
-    "Python/case/tscript/7/hk2.py~",
+    "计网/image/DHCP1.png",
     "计网/CNW.md",
     "Linux/Linux.md",
+    "PHP/PHP Missing study.md",
+    "PHP/case/8/hk1.php~",
+    "PHP/case/8/hk2.php~",
+    "PHP/case/8/hk1.php",
+    "PHP/case/8/hk2.php",
+    "PHP/case/8/1.php~",
+    "README.md",
+    "PHP/case/7/hk2.php~",
+    "PHP/case/7/hk1.php~",
+    "PHP/case/7/test.txt",
+    "PHP/case/7/hk2.php",
+    "Python/Python.md",
+    "Python/case/tscript/7/movie_wordcloud.png",
+    "Python/case/tscript/7/movie_titles.txt",
+    "Mysql/Mysql.md",
+    "Python/case/tscript/7/song.png",
+    "Python/case/tscript/7/poemcloud2.png",
+    "Python/case/tscript/7/poemcloud1.png",
     "未命名.md",
     "计网/image/UDP.png",
     "计网/image/HTTP Message.png",
     "计网/image/EmailProtocol.png",
-    "计网/image/DHCP1.png",
     "计网/image/IP数据报格式.png",
-    "计网/image/802.11数据帧格式.png",
-    "计网/image/802.1Q.png"
+    "计网/image/802.11数据帧格式.png"
   ]
 }

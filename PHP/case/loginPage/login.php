@@ -14,13 +14,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     if (verification($username, $pwd)) {
-        echo "<script>alert('登录验证通过');</script>";
+        echo "success";
     } else {
-        echo "<script>alert('登录失败，用户名或密码错误');</script>";
+        echo "fail";
     }
 } else {
-    header("Location: login.html");
-    exit;
+    echo "fail";
 }
 ?>
-<?php
