@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e9845681fa9ae54d",
+        "id": "2efa581f7996f58b",
         "type": "tabs",
         "children": [
           {
-            "id": "6d1b574dd790bdcc",
+            "id": "89f47a13a666baa1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -170,8 +170,16 @@
       "iconic:打开规则书": false
     }
   },
-  "active": "6d1b574dd790bdcc",
+  "active": "e43d7c3cbb14a35c",
   "lastOpenFiles": [
+    "未命名.md",
+    "数据结构/DS.md",
+    "计网/CNW.md",
+    "[images.md",
+    "数据结构/images/复杂度排序.png",
+    "images.md",
+    "数据结构/images",
+    "数据结构/新建文件夹",
     "Python/case/tscript/7/国歌.txt",
     "Python/case/tscript/7/song.png",
     "Python/case/tscript/7/poemcloud2.png",
@@ -184,12 +192,8 @@
     "Python/case/tscript/7/hk3.py",
     "Python/case/tscript/7/hk1.py",
     "Python/case/tscript/7",
-    "Python/case/tscript/6/test/testC.txt",
-    "Python/case/tscript/6/test/testE.txt",
-    "Python/case/tscript/6/test/testD.txt",
     "Mysql/Mysql.md",
     "Minecraft/新建 文本文档.md",
-    "数据结构/DS.md",
     "Python/Python.md"
   ]
 }
