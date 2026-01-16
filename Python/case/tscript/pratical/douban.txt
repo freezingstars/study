@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="edge" />
+    <meta name=“renderer” content=“webkit”>
+    <meta name="referrer" content="always">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://img1.doubanio.com/favicon.ico" type="image/x-icon">
+    <link rel="search" type="application/opensearchdescription+xml" title="豆瓣搜索" href="/opensearch?source=music">
+    <title>fairy - 音乐 - 豆瓣搜索</title>
+    <meta name="description" content="fairy - 音乐 - 豆瓣搜索">
+    <link rel="stylesheet" href="https://img1.doubanio.com/f/vendors/fae7e145bf16b2f427ba0fe7ef3d47c04af3a6c0/css/douban.css">
+    <style>
+      #wrapper { width: 1040px; box-sizing: border-box;}
+      @media (max-width: 1024px) { #wrapper { width: 1000px } }
+    </style>
+    <script src="https://img2.doubanio.com/cuphead/search-static/legacy/lib/jquery.js"></script>
+
+    <style type="text/css">
+    #root {
+      min-height: 500px;
+    }
+
+    #root > .search-title {
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 1;
+      margin-bottom: 30px;
+      padding: 0;
+      color: #494949;
+    }
+  </style>
+  </head>
+  <body>
+
+    <link href="//img3.doubanio.com/dae/accounts/resources/ba98e9b/shire/bundle.css" rel="stylesheet" type="text/css">
+
+<div id="db-global-nav" class="global-nav">
+  <div class="bd">
+
+<div class="top-nav-info">
+  <a href="https://accounts.douban.com/passport/login?source=main" class="nav-login" rel="nofollow">登录/注册</a>
+</div>
+
+    <div class="top-nav-doubanapp">
+  <a href="https://www.douban.com/doubanapp/app?channel=top-nav" class="lnk-doubanapp">下载豆瓣客户端</a>
+  <div id="doubanapp-tip">
+    <a href="https://www.douban.com/doubanapp/app?channel=qipao" class="tip-link">豆瓣 <span class="version">6.0</span> 全新发布</a>
+    <a href="javascript: void 0;" class="tip-close">×</a>
+  </div>
+  <div id="top-nav-appintro" class="more-items">
+    <p class="appintro-title">豆瓣</p>
+    <p class="qrcode">扫码直接下载</p>
+    <div class="download">
+      <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&direct_dl=1&download=iOS">iPhone</a>
+      <span>·</span>
+      <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&direct_dl=1&download=Android" class="download-android">Android</a>
+    </div>
+  </div>
+</div>
+
+<div class="global-nav-items">
+  <ul>
+    <li class="on">
+      <a href="https://www.douban.com"  data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-main&quot;,&quot;uid&quot;:&quot;0&quot;}">豆瓣</a>
+    </li>
+    <li class="">
+      <a href="https://book.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-book&quot;,&quot;uid&quot;:&quot;0&quot;}">读书</a>
+    </li>
+    <li class="">
+      <a href="https://movie.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-movie&quot;,&quot;uid&quot;:&quot;0&quot;}">电影</a>
+    </li>
+    <li class="">
+      <a href="https://music.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-music&quot;,&quot;uid&quot;:&quot;0&quot;}">音乐</a>
+    </li>
+    <li class="">
+      <a href="https://www.douban.com/podcast/" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-podcast&quot;,&quot;uid&quot;:&quot;0&quot;}">播客</a>
+    </li>
+    <li class="">
+      <a href="https://www.douban.com/location" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-location&quot;,&quot;uid&quot;:&quot;0&quot;}">同城</a>
+    </li>
+    <li class="">
+      <a href="https://www.douban.com/group" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-group&quot;,&quot;uid&quot;:&quot;0&quot;}">小组</a>
+    </li>
+    <li class="">
+      <a href="https://read.douban.com&#47;?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-read&quot;,&quot;uid&quot;:&quot;0&quot;}">阅读</a>
+    </li>
+    <li class="">
+      <a href="https://fm.douban.com&#47;?from_=shire_top_nav" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-fm&quot;,&quot;uid&quot;:&quot;0&quot;}">FM</a>
+    </li>
+    <li class="">
+      <a href="https://time.douban.com&#47;?dt_time_source=douban-web_top_nav" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-time&quot;,&quot;uid&quot;:&quot;0&quot;}">时间</a>
+    </li>
+    <li class="">
+      <a href="https://market.douban.com&#47;?utm_campaign=douban_top_nav&amp;utm_source=douban&amp;utm_medium=pc_web" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-market&quot;,&quot;uid&quot;:&quot;0&quot;}">豆品</a>
+    </li>
+  </ul>
+</div>
+
+  </div>
+</div>
+<script>
+  ;window._GLOBAL_NAV = {
+    DOUBAN_URL: "https://www.douban.com",
+    N_NEW_NOTIS: 0,
+    N_NEW_DOUMAIL: 0
+  };
+</script>
+
+    <script src="//img3.doubanio.com/dae/accounts/resources/ba98e9b/shire/bundle.js" defer="defer"></script>
+
+    <link href="//img3.doubanio.com/dae/accounts/resources/ba98e9b/music/bundle.css" rel="stylesheet" type="text/css">
+
+<div id="db-nav-music" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="https:&#47;&#47;music.douban.com">豆瓣音乐</a>
+    </div>
+    <div class="nav-search">
+      <form action="https:&#47;&#47;search.douban.com&#47;music/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">
+          </label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" placeholder="唱片名、表演者、条码、ISRC" value="fairy"></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1003" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+
+<div class="nav-items">
+  <ul>
+    <li    ><a href="https://music.douban.com/artists/"
+     >音乐人</a>
+    </li>
+    <li    ><a href="https://music.douban.com/chart"
+     >排行榜</a>
+    </li>
+    <li    ><a href="https://music.douban.com/tag/"
+     >分类浏览</a>
+    </li>
+    <li    ><a href="https://music.douban.com/review/latest/"
+     >乐评</a>
+    </li>
+    <li    ><a href="https://fm.douban.com/?from_=music_nav"
+     >豆瓣FM</a>
+    </li>
+    <li    ><a href="https://fm.douban.com/explore/songlists/"
+     >歌单</a>
+    </li>
+    <li    ><a href="https://music.douban.com/annual/2024/?fullscreen=1&source=navigation"
+            target="_blank"
+     >2024年度榜单</a>
+    </li>
+  </ul>
+</div>
+
+    <a href="https://music.douban.com/annual/2024/?source=music_navigation" class="musicannual"></a>
+  </div>
+</div>
+
+<script id="suggResult" type="text/x-jquery-tmpl">
+  <li data-link="{{= url}}">
+            <a href="{{= url}}" onclick="moreurl(this, {from:'music_search_sugg', query:'{{= keyword }}', subject_id:'{{= id}}', i: '{{= index}}', type: '{{= type}}'})">
+            <img src="{{= pic}}" width="40" />
+            <div>
+                <em>{{= title}}</em>
+                {{if type == "m"}}
+                    <span>(艺术家)</span>
+                {{else type == "a"}}
+                    <span>(音乐人)</span>
+                {{else type == "d"}}
+                    <span>(DJ)</span>
+                {{else type == "l"}}
+                    <span>(厂牌)</span>
+                {{/if}}
+                {{if other_title}}
+                    <span>其他名称：{{= other_title}}</span>
+                {{/if}}
+                {{if performer}}
+                    <p>表演者：{{= performer}}</p>
+                {{/if}}
+                {{if cn_name}}
+                    <p>{{= cn_name}}</p>
+                {{/if}}
+                {{if en_name}}
+                    <p>{{= en_name}}</p>
+                {{/if}}
+            </div>
+        </a>
+        </li>
+  </script>
+
+    <script src="//img3.doubanio.com/dae/accounts/resources/ba98e9b/music/bundle.js" defer="defer"></script>
+
+    <div id="wrapper">
+
+  <div id="root" class="root">
+    <div class="search-title">正在搜索...</div>
+  </div>
+  <div id="browser-support"></div>
+
+  <div id="footer">
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2025 douban.com, all rights reserved 北京豆网科技有限公司
+</span>
+
+<a href="https://www.douban.com/hnypt/variformcyst.py" style="display: none;"></a>
+
+<span class="fright">
+    <a href="https://www.douban.com/about">关于豆瓣</a>
+    · <a href="https://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="https://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="https://www.douban.com/about/legal">法律声明</a>
+    · <a href="https://help.douban.com/" target="_blank">帮助中心</a>
+    · <a href="https://www.douban.com/doubanapp/">移动应用</a>
+</span>
+
+  </div>
+
+    </div>
+    <script src="https://img1.doubanio.com/f/vendors/e258329ca4b2122b4efe53fddc418967441e0e7f/js/douban.js" charset="utf-8"></script>
+
+  <script src="https://img3.doubanio.com/cuphead/search-static/main_subject_search/vendor.2278f.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    window.__DATA__ = {"count": 15, "error_info": "", "items": [{"abstract": "5 人收藏", "abstract_2": "/流行 / 2011年09月21日 / HERO／Sweet Jewel / Beat Generation / No More Distance / HERO／Sweet Jewel", "cover_url": "https://img9.doubanio.com/img/musician/medium/18164.jpg", "id": 117317, "labels": [{"color": "#00ad3f", "text": "艺术家"}], "more_url": "", "title": "妖精 Fairies", "tpl_name": "search_common", "url": "https://music.douban.com/musician/117317/"}, {"abstract": "岡田有希子 / 1985-03-21 / 专辑 / CD / 流行", "abstract_2": "", "cover_url": "https://img2.doubanio.com/view/subject/m/public/s33626331.jpg", "extra_actions": [], "id": 35042023, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'35042023',query:'fairy',i:'0'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "FAIRY", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/35042023/"}, {"abstract": "松田聖子 / 2005年04月06日 / 专辑 / CD / 流行", "abstract_2": "", "cover_url": "https://img3.doubanio.com/view/subject/m/public/s4717612.jpg", "extra_actions": [], "id": 2271679, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'2271679',query:'fairy',i:'1'})\"", "rating": {"count": 26, "rating_info": "", "star_count": 4.0, "value": 7.8}, "title": "fairy", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/2271679/"}, {"abstract": "上野まな / 2011-07-13 / 专辑 / CD / 流行", "abstract_2": "", "cover_url": "https://img1.doubanio.com/view/subject/m/public/s6520350.jpg", "extra_actions": [], "id": 10525386, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'10525386',query:'fairy',i:'2'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairies", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/10525386/"}, {"abstract": "発熱巫女〜ず / 2019-08-12 / 专辑 / CD", "abstract_2": "", "cover_url": "https://img1.doubanio.com/view/subject/m/public/s33450958.jpg", "extra_actions": [], "id": 34785536, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'34785536',query:'fairy',i:'3'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairyness", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/34785536/"}, {"abstract": "天野由梨 / 1994-2-01 / 专辑 / CD / 流行", "abstract_2": "", "cover_url": "https://img3.doubanio.com/view/subject/m/public/s4355107.jpg", "extra_actions": [], "id": 4826436, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'4826436',query:'fairy',i:'4'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairy", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/4826436/"}, {"abstract": "韩东 / 2025-05-15 / 单曲 / 数字(Digital) / 流行", "abstract_2": "", "cover_url": "https://img3.doubanio.com/view/subject/m/public/s35159052.jpg", "extra_actions": [], "id": 37362360, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'37362360',query:'fairy',i:'5'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairy", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/37362360/"}, {"abstract": "Vallquar-ワルキューレ- / 2011-04-22", "abstract_2": "", "cover_url": "https://img9.doubanio.com/view/subject/m/public/s7025096.jpg", "extra_actions": [], "id": 7163368, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'7163368',query:'fairy',i:'6'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairy", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/7163368/"}, {"abstract": "Regina Song / 2025-02-28 / 单曲 / 数字(Digital) / 流行", "abstract_2": "", "cover_url": "https://img3.doubanio.com/view/subject/m/public/s35094062.jpg", "extra_actions": [], "id": 37257864, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'37257864',query:'fairy',i:'7'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairy", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/37257864/"}, {"abstract": "Fairies / 2014-03-26 / 专辑 / CD / 流行", "abstract_2": "", "cover_url": "https://img1.doubanio.com/view/subject/m/public/s27241859.jpg", "extra_actions": [], "id": 25849750, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'25849750',query:'fairy',i:'8'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairies ", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/25849750/"}, {"abstract": "Araatan ‎ / 19 Feb 2016 / EP / mp3", "abstract_2": "", "cover_url": "https://img1.doubanio.com/view/subject/m/public/s29709849.jpg", "extra_actions": [], "id": 30164088, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'30164088',query:'fairy',i:'9'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairy", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/30164088/"}, {"abstract": "Maddie Moon / 2021-04-02 / 单曲 / 数字(Digital) / 流行", "abstract_2": "", "cover_url": "https://img1.doubanio.com/view/subject/m/public/s34689239.jpg", "extra_actions": [], "id": 36633471, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'36633471',query:'fairy',i:'10'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairies", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/36633471/"}, {"abstract": "上野まな / 2011-07-13 / CD", "abstract_2": "", "cover_url": "https://img1.doubanio.com/f/vendors/11496305e2cd99415ec541326b236b6b8d61175c/pics/music-default-lpic.gif", "extra_actions": [], "id": 10525388, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'10525388',query:'fairy',i:'11'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairies", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/10525388/"}, {"abstract": "Kidzone / 2012-02-27 / 专辑 / 说唱", "abstract_2": "", "cover_url": "https://img9.doubanio.com/view/subject/m/public/s32691284.jpg", "extra_actions": [], "id": 33897201, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'33897201',query:'fairy',i:'12'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairies", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/33897201/"}, {"abstract": "Manuel Pesenti,Angelo Scotti / 2010-07-28 / 专辑 / 电子", "abstract_2": "", "cover_url": "https://img2.doubanio.com/view/subject/m/public/s33194731.jpg", "extra_actions": [], "id": 34328029, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'34328029',query:'fairy',i:'13'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "Fairy", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/34328029/"}, {"abstract": "Ashley Sienna / 2024-06-14 / 单曲 / 数字(Digital) / 流行", "abstract_2": "", "cover_url": "https://img9.doubanio.com/view/subject/m/public/s35262554.jpg", "extra_actions": [], "id": 37565698, "interest": null, "label_actions": [], "labels": [], "more_url": "onclick=\"moreurl(this,{from:'music_subject_search',subject_id:'37565698',query:'fairy',i:'14'})\"", "rating": {"count": 0, "rating_info": "暂无评分", "star_count": 0, "value": 0}, "title": "fairies", "topics": [], "tpl_name": "search_subject", "url": "https://music.douban.com/subject/37565698/"}], "report": {"qtype": "196", "tags": "音乐"}, "start": 0, "text": "fairy", "total": 1634};
+      window.__USER__ = { }
+  </script>
+
+  <script src="https://img2.doubanio.com/cuphead/search-static/main_subject_search/main.965b1.js" charset="utf-8"></script>
+  <script src="https://img1.doubanio.com/f/vendors/dae291ee0db6a4e4f43626fd91a554962c199246/js/core/new_rating.js" charset="utf-8"></script>
+  <script src="https://img1.doubanio.com/cuphead/search-static/legacy/js/init_collect_btn.3313b.js" charset="utf-8"></script>
+
+<link rel="stylesheet" href="https://img9.doubanio.com/dae/cdnlib/libs/browser-support/1.0.0/browser-support.css ">
+<script src="https://img9.doubanio.com/dae/cdnlib/libs/browser-support/1.0.0/browser-support.js?v=1" charset="utf-8"></script>
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = '//erebor.douban.com/',
+            userId = '',
+            browserId = 'iq5uTfXBhEs',
+            criteria = '8:fairy|3:/music/subject_search?search_text=fairy',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_music_subject_search_top_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', '//img1.doubanio.com/OTJhMWU3dC9mL2FkanMvMjRhM2Q1Yjg4MmE0YjAwZDQwNWFjMTAzMDk4ZDI2ZjYzYjQwNmQ5ZS9hZC5yZWxlYXNlLmpz?company_token=kX69T8w1wyOE-dale');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+    <script type="text/javascript">
+    (function() {
+      DetectBrowser({
+        domId: 'browser-support',
+        callback: function(ok) {
+          if (!ok) {
+            var $root = document.getElementById('root')
+            $root && $root.parentElement.removeChild($root)
+          }
+        }
+      })
+    }())
+  </script>
+  </body>
+</html>
+

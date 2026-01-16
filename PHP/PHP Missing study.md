@@ -96,6 +96,31 @@ PHP中数据分为三大类八小类
 复合数据类型：2个小类（对象类型，数组类型）
 特殊数据类型：2个小类（资源类型，空类型）
 
+基础类型列表是：
+
+- 内置类型
+    - 标量类型：
+        - [bool](https://www.php.net/manual/zh/language.types.boolean.php) 类型
+        - [int](https://www.php.net/manual/zh/language.types.integer.php) 类型
+        - [float](https://www.php.net/manual/zh/language.types.float.php) 类型
+        - [string](https://www.php.net/manual/zh/language.types.string.php) 类型
+    - [array](https://www.php.net/manual/zh/language.types.array.php) 类型
+    - [object](https://www.php.net/manual/zh/language.types.object.php) 类型
+    - [resource](https://www.php.net/manual/zh/language.types.resource.php) 类型
+    - [never](https://www.php.net/manual/zh/language.types.never.php) 类型
+    - [void](https://www.php.net/manual/zh/language.types.void.php) 类型
+    - [相对类类型](https://www.php.net/manual/zh/language.types.relative-class-types.php)：self、parent 和 static
+    - [单例类型](https://www.php.net/manual/zh/language.types.singleton.php)
+        - [false](https://www.php.net/manual/zh/language.types.singleton.php)
+        - [true](https://www.php.net/manual/zh/language.types.singleton.php)
+    - 单值类型
+        - [null](https://www.php.net/manual/zh/language.types.null.php)
+- 用户定义的类型（通常称为类类型）
+    - [接口](https://www.php.net/manual/zh/language.oop5.interfaces.php)
+    - [类](https://www.php.net/manual/zh/language.oop5.basic.php#language.oop5.basic.class)
+    - [枚举](https://www.php.net/manual/zh/language.types.enumerations.php)
+- [callable](https://www.php.net/manual/zh/language.types.callable.php) 类型
+
 PHP中有两种类型转换方式：自动转换和强制转换。以字母开头的字符串永远为0，以数字开头的字符串取到字符为止（不会同时包含两个小数点）
 ``` php
 <?php
@@ -106,12 +131,13 @@ PHP中有两种类型转换方式：自动转换和强制转换。以字母开�
 ```
 如果想要获取数据的类型是否为指定的类型，则可使用`is_类型(变量名)`，同时还有函数`var_dump()`可以输出函数的**类型与值并换行**
 
-- Gettype(变量名)          获取类型，得到类型对应的字符串
-- Settype(变量名,类型)  设定数据类型，会直接改变数据本身
+- gettype(变量名)          获取类型，得到类型对应的字符串
+- get_debug_type(变量名) 获取类型
+- settype(变量名,类型)  设定数据类型，会直接改变数据本身
 
 
 
-### 整形
+#### 整形
 
 4个字节存储数据，最大32位，PHP中默认为有符号类型（区分正负），在PHP中提供了四种整形的定义方式：十进制，二进制，八进制和十六进制
 
@@ -132,7 +158,7 @@ $d = 0x120   # 十六进制
 
   以此类推，只需要改变dec,bin,oct,hex的组合顺序就可以任意转换
 
-### 浮点型
+#### 浮点型
 
 浮点型的定义就是'$f = 1.23; 或者'$f = 1.23e10;'，整形超过自身存储值的上限时会采用浮点型存储
 
@@ -371,7 +397,7 @@ EOF;
 标识可以自定义，但是结束标识必须单独一行
 
 如果想要输出符号但是又不希望符号成为语法的一部分，需要进行转义，反斜杠+字母即可
-
+**注意**: **不像[双引号]和 [heredoc] 语法结构，在单引号字符串中的[变量]和特殊字符的转义序列将_不会_被替换。**
 统计字符串长度:'strlen()'，如果希望输出中文具体的个数而非字节数，可以使用mbstring扩展'mb_strlen()'
 
 #### 字符串相关函数
