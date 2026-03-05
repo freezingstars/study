@@ -6,5 +6,23 @@
       ],
       "key": "Q"
     }
+  ],
+  "obsidian-heading-shifter:decrease-heading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "obsidian-heading-shifter:increase-heading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "]"
+    }
   ]
 }
