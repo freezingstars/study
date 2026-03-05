@@ -14,8 +14,8 @@ for i in range(100, 1000):
     c = i % 10  # 个位
 
     if a ** 3 + b ** 3 + c ** 3 == i:
-        print(i)
-=======
+        print('')
+
 class Student:
     def __init__(self, name, score):
         self.name = name
@@ -28,4 +28,3 @@ P1 = Student("Tom", 80)
 P1.showScore()
 P1.score = 85
 P1.showScore()
->>>>>>> c4c609fc246df5474980b41646a2acdf3db812f8

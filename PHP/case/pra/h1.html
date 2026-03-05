@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <form id="test" action="p18.php" method="post">
+        <label>
+            <input type="text" name="userInput">
+        </label>
+        <button type="submit">sub</button>
+    </form>
+</div>
+<script>
+    document.getElementById('test').addEventListener('submit',function (e)
+    {
+        e.preventDefault();
+    fetch('p18.php',{
+        method: 'POST',
+        body: new FormData(this)
+        })
+        .then(res => res.text())
+        .then(msg => {alert(msg);})
+    })
+</script>
+</body>
+</html>

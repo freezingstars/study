@@ -1,0 +1,4 @@
+The PHP is not a safe language
+777
+9
+asd

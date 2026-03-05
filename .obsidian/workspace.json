@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "PHP/PHP Missing study.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "PHP Missing study"
             }
           }
         ]
@@ -136,61 +136,47 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
-          },
-          {
-            "id": "71099722d3845a0d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Linux/Linux.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Linux 的大纲"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
       "iconic:打开规则书": false
     }
   },
-  "active": "bff2632f95d78bcd",
+  "active": "26111ffb8d56683d",
   "lastOpenFiles": [
-    "计网/image/DHCP1.png",
+    "PHP/case/pra/p19.php~",
+    "PHP/case/pra/p19.php",
+    "PHP/case/pra/h1.html~",
+    "PHP/case/pra/p18.php~",
+    "PHP/case/pra/h1.html",
+    "PHP/case/pra/p18.php",
+    "PHP/case/pra/p17.php~",
+    "PHP/case/pra/p17.php",
+    "PHP/case/pra/p16.php~",
+    "PHP/case/pra/p16.php",
+    "PHP/case/pra/p15.php~",
+    "ChatWithChatgpt/safe1.md",
+    "Python/Python.md",
     "计网/CNW.md",
     "Linux/Linux.md",
+    "计网/image/DHCP1.png",
     "PHP/PHP Missing study.md",
-    "PHP/case/8/hk1.php~",
-    "PHP/case/8/hk2.php~",
-    "PHP/case/8/hk1.php",
-    "PHP/case/8/hk2.php",
-    "PHP/case/8/1.php~",
     "README.md",
-    "PHP/case/7/hk2.php~",
-    "PHP/case/7/hk1.php~",
-    "PHP/case/7/test.txt",
-    "PHP/case/7/hk2.php",
-    "Python/Python.md",
     "Python/case/tscript/7/movie_wordcloud.png",
-    "Python/case/tscript/7/movie_titles.txt",
     "Mysql/Mysql.md",
     "Python/case/tscript/7/song.png",
     "Python/case/tscript/7/poemcloud2.png",
