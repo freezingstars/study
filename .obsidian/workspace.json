@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计组/CCP.md",
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CCP"
+              "title": "未命名"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计组/CCP.md",
+                "file": "未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CCP 的大纲"
+              "title": "未命名 的大纲"
             }
           }
         ],
@@ -172,37 +172,40 @@
   },
   "active": "bff2632f95d78bcd",
   "lastOpenFiles": [
+    "未命名 11.md",
     "未命名.md",
+    "README.md",
+    "Pasted image 20260315200432.png",
     "未命名 1.base",
     "未命名.base",
+    "定理/None.md",
     "计组/CCP.md",
-    "计组/image/寻址构成.png",
-    "计组/image/扩展操作码.png",
-    "计组/image/直接映射法.png",
-    "计组/image/RAID.png",
-    "计组/image/磁盘-CPU工作电路.png",
-    "计组/image/磁表面存储器.png",
-    "计组/image/字位同时扩展法.png",
-    "计组/image/线选法和片选法.png",
-    "计组/image/译码器片选法.png",
-    "计组/image/3-8译码器.png",
+    "定理",
+    "数论/数论.md",
+    "Mysql/Mysql.md",
+    "数论",
+    "计组/image/DMA方式与程序中断方式对比.png",
+    "计组/image/DMA传输方式.png",
+    "计组/image/三总线过程细化.png",
+    "计组/image/DMA传送过程.png",
+    "计组/image/DMA控制器.png",
+    "计组/image/单总线DMA.png",
+    "计组/image/程序中断方式图.png",
+    "计组/image/中断优先级设计.png",
+    "计组/image/中断屏蔽技术.png",
+    "ChatWithChatgpt/safe1.md",
     "操作系统/OS.md",
     "汇编语言/Assembly.md",
     "数据结构/DS.md",
     "计组/image",
     "计组/新建文件夹",
     "计组",
-    "ChatWithChatgpt/safe1.md",
     "计网/CNW.md",
     "汇编语言",
     "Python/Python.md",
     "PHP/PHP Missing study.md",
     "计网/images",
     "操作系统/images",
-    "操作系统",
-    "PHP/case/pra/p19.php~",
-    "Linux/Linux.md",
-    "README.md",
-    "Mysql/Mysql.md"
+    "Linux/Linux.md"
   ]
 }
