@@ -51,3 +51,7 @@ People exercise regularly. This improves health.
 学术表达：
 Regular exercise improves health.
 “经常锻炼”变成一个名词概念。
+
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql:5.7
+-d --link mysql:mysql -p 86:80 wordpress:5.6
+cd /etc
