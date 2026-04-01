@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "191763a700841fdf",
+            "id": "135d0261b76b2d17",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8aeda8cee70881ea",
@@ -142,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计网/CNW.md",
+                "file": "汇编语言/Assembly.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CNW 的大纲"
+              "title": "Assembly 的大纲"
             }
           }
         ],
@@ -156,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5,
-    "collapsed": true
+    "width": 228.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,41 +171,44 @@
       "iconic:打开规则书": false
     }
   },
-  "active": "191763a700841fdf",
+  "active": "135d0261b76b2d17",
   "lastOpenFiles": [
-    "未命名.md",
-    "计网/CNW.md",
     "汇编/汇编.md",
-    "未命名",
-    "汇编",
-    "English/Chinish Study.md",
-    "English",
-    "计组/CCP.md",
-    "未命名.base",
-    "未命名 1.base",
-    "README.md",
-    "计组/image/寻址构成.png",
-    "计组/image/扩展操作码.png",
-    "计组/image/直接映射法.png",
-    "计组/image/RAID.png",
-    "计组/image/磁盘-CPU工作电路.png",
-    "计组/image/磁表面存储器.png",
-    "计组/image/字位同时扩展法.png",
-    "计组/image/线选法和片选法.png",
-    "计组/image/译码器片选法.png",
-    "计组/image/3-8译码器.png",
-    "操作系统/OS.md",
     "汇编语言/Assembly.md",
+    "计组/CCP.md",
+    "English/Chinish Study.md",
+    "Mysql/Mysql.md",
+    "未命名.md",
+    "未命名 11.md",
+    "README.md",
+    "汇编",
+    "ChatWithChatgpt/safe1.md",
+    "English",
+    "Pasted image 20260315200432.png",
+    "未命名 1.base",
+    "未命名.base",
+    "定理/None.md",
+    "定理",
+    "数论/数论.md",
+    "数论",
+    "计组/image/DMA方式与程序中断方式对比.png",
+    "计组/image/DMA传输方式.png",
+    "计组/image/三总线过程细化.png",
+    "计组/image/DMA传送过程.png",
+    "计组/image/DMA控制器.png",
+    "计组/image/单总线DMA.png",
+    "计组/image/程序中断方式图.png",
+    "计组/image/中断优先级设计.png",
+    "计组/image/中断屏蔽技术.png",
+    "操作系统/OS.md",
     "数据结构/DS.md",
     "计组/image",
     "计组/新建文件夹",
     "计组",
-    "ChatWithChatgpt/safe1.md",
+    "计网/CNW.md",
     "汇编语言",
     "Python/Python.md",
     "PHP/PHP Missing study.md",
-    "计网/images",
-    "Linux/Linux.md",
-    "Mysql/Mysql.md"
+    "Linux/Linux.md"
   ]
 }
