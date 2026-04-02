@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8aeda8cee70881ea",
@@ -173,16 +172,18 @@
   },
   "active": "135d0261b76b2d17",
   "lastOpenFiles": [
-    "汇编/汇编.md",
-    "汇编语言/Assembly.md",
-    "计组/CCP.md",
-    "English/Chinish Study.md",
-    "Mysql/Mysql.md",
-    "未命名.md",
+    "ChatWithChatgpt/safe1.md",
     "未命名 11.md",
     "README.md",
+    "Web安全/只是一些概念.md",
+    "汇编语言/Assembly.md",
+    "Web安全",
+    "English/Chinish Study.md",
+    "汇编/汇编.md",
+    "计组/CCP.md",
+    "Mysql/Mysql.md",
+    "未命名.md",
     "汇编",
-    "ChatWithChatgpt/safe1.md",
     "English",
     "Pasted image 20260315200432.png",
     "未命名 1.base",
@@ -206,7 +207,6 @@
     "计组/新建文件夹",
     "计组",
     "计网/CNW.md",
-    "汇编语言",
     "Python/Python.md",
     "PHP/PHP Missing study.md",
     "Linux/Linux.md"
