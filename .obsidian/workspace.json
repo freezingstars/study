@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8aeda8cee70881ea",
@@ -188,16 +189,19 @@
   },
   "active": "e26ee297511b5d9c",
   "lastOpenFiles": [
+    "PWN/images/process.png",
+    "PWN/images/cdb2b9b28eb541519d91808f77e40643.png",
+    "汇编语言/Assembly.md",
+    "未命名.md",
+    "PWN/PWN.md",
+    "PWN/images/Memory2.png",
     "PWN/images/Memory.png",
     "PWN/images/ELF3.png",
     "PWN/images/ELF2.png",
     "PWN/images",
     "PWN/images/ELF.png",
-    "PWN/PWN.md",
-    "未命名.md",
     "PWN",
     "未命名 11.md",
-    "汇编语言/Assembly.md",
     "ChatWithChatgpt/safe1.md",
     "README.md",
     "Web安全/只是一些概念.md",
@@ -218,9 +222,6 @@
     "计组/image/DMA方式与程序中断方式对比.png",
     "计组/image/DMA传输方式.png",
     "计组/image/三总线过程细化.png",
-    "计组/image/DMA传送过程.png",
-    "计组/image/DMA控制器.png",
-    "计组/image/单总线DMA.png",
     "操作系统/OS.md",
     "数据结构/DS.md",
     "计组/image",
