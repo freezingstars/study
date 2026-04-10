@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PWN/PWN.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PWN"
+              "title": "README"
             }
           }
         ],
@@ -188,18 +188,18 @@
   },
   "active": "e26ee297511b5d9c",
   "lastOpenFiles": [
+    "汇编语言/Assembly.md",
+    "未命名.md",
+    "未命名 11.md",
+    "README.md",
+    "PWN/PWN.md",
     "PWN/images/Memory.png",
     "PWN/images/ELF3.png",
     "PWN/images/ELF2.png",
     "PWN/images",
     "PWN/images/ELF.png",
-    "PWN/PWN.md",
-    "未命名.md",
     "PWN",
-    "未命名 11.md",
-    "汇编语言/Assembly.md",
     "ChatWithChatgpt/safe1.md",
-    "README.md",
     "Web安全/只是一些概念.md",
     "Web安全",
     "English/Chinish Study.md",
@@ -220,7 +220,6 @@
     "计组/image/三总线过程细化.png",
     "计组/image/DMA传送过程.png",
     "计组/image/DMA控制器.png",
-    "计组/image/单总线DMA.png",
     "操作系统/OS.md",
     "数据结构/DS.md",
     "计组/image",
