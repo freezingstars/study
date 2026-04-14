@@ -274,6 +274,9 @@ mov esp，ebp **将上一个函数的栈帧作为当前函数的栈基地址**
 		...
 		retn 或 retn 8,取决于编译器
 ```
+Microsoft x64 Calling Convention (Windows) 整数/指针参数： **前 4 个参数依次使用 RCX, RDX, R8, R9 寄存器**。由调用者清理栈
+
+System V AMD64 ABI (Linux/macOS/其他Unix系统) 整数/指针参数： **前 6 个参数依次使用 RDI, RSI, RDX, RCX, R8, R9 寄存器**。由调用者清理栈
 ## ?
 TEB(Thread Environment Block)：存储与当前**线程相关**的信息，FS寄存器**指向当前线程的TEB**，每个线程都有独立的TEB用于存储多种信息。包括线程的本地存储、异常处理、TLS（线程局部存储）、栈指针等。每个线程都通过fs:[0] 获取指向其TEB的指针
 PEB(Process Enviroment Block):存储与**进程相关**的信息，64位系统中可以通过FS寄存器访问
