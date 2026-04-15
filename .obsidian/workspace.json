@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "未命名"
             }
-          },
-          {
-            "id": "e26ee297511b5d9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PWN/PWN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PWN"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8aeda8cee70881ea",
@@ -187,19 +171,23 @@
       "iconic:打开规则书": false
     }
   },
-  "active": "e26ee297511b5d9c",
+  "active": "135d0261b76b2d17",
   "lastOpenFiles": [
+    "Minecraft/新建 文本文档.md",
+    "PWN/images/Memory.png",
+    "PWN/images/Memory2.png",
+    "计组/image/有符号乘法.png",
+    "计组/image/有符号乘法逻辑.png",
+    "计组/image/有符号乘法规则.png",
+    "计组/image/结构.png",
+    "操作系统/images/分配图.png",
+    "PWN/PWN.md",
     "PWN/images/process.png",
     "PWN/images/cdb2b9b28eb541519d91808f77e40643.png",
     "汇编语言/Assembly.md",
     "未命名.md",
-    "PWN/PWN.md",
-    "PWN/images/Memory2.png",
-    "PWN/images/Memory.png",
     "PWN/images/ELF3.png",
-    "PWN/images/ELF2.png",
     "PWN/images",
-    "PWN/images/ELF.png",
     "PWN",
     "未命名 11.md",
     "ChatWithChatgpt/safe1.md",
@@ -212,16 +200,12 @@
     "Mysql/Mysql.md",
     "汇编",
     "English",
-    "Pasted image 20260315200432.png",
     "未命名 1.base",
     "未命名.base",
     "定理/None.md",
     "定理",
     "数论/数论.md",
     "数论",
-    "计组/image/DMA方式与程序中断方式对比.png",
-    "计组/image/DMA传输方式.png",
-    "计组/image/三总线过程细化.png",
     "操作系统/OS.md",
     "数据结构/DS.md",
     "计组/image",
