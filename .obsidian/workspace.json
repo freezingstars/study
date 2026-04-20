@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8aeda8cee70881ea",
@@ -173,8 +172,9 @@
   },
   "active": "135d0261b76b2d17",
   "lastOpenFiles": [
-    "未命名 11.md",
+    "计组/CCP.md",
     "路由与交换技术/路由与交换技术.md",
+    "未命名 11.md",
     "路由与交换技术",
     "README.md",
     "未命名.md",
@@ -198,7 +198,6 @@
     "Web安全",
     "English/Chinish Study.md",
     "汇编/汇编.md",
-    "计组/CCP.md",
     "Mysql/Mysql.md",
     "汇编",
     "English",
