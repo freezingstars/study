@@ -256,7 +256,7 @@ Mysql内置了一些字符串函数，常用的有：
 | RPAD(str,n,pad)          | 以字符串pad对str进行右填充，达到n长度 |
 | TRIM(str)                | 去首尾空格                  |
 | SUBSTRING(str,start,len) | 返回str从start位置起len长度个字符 |
-
+insert(str,x,y)
 ## 数值
 
 | 函数         | 功能                |
@@ -393,3 +393,4 @@ SQL中嵌套SELECT语句，称为嵌套语句，又称子查询
 通常将仅返回**单个值**的形式成为**标量子查询**，常用操作符为= <> < <= > >=
 子查询返回一列(可以是多行)，这种子查询成为列子查询，常用操作符为IN、NOT IN、ANY、SOME(等同于ANY)、ALL（返回列表的所有值都必须满足）
 ALL,ANY后跟随的主要是一个数组，例如`all (含int类型的表达式)`
+
